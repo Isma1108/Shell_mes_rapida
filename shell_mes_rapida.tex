@@ -63,15 +63,16 @@
 \newpage
 \section*{RESUM}
 \subsection*{Objectius}
-El principal objectiu del treball es veure, donades 8 shells de UNIX concretes, poder determinar quina de totes
+El principal objectiu del treball és, donades 8 shells de UNIX concretes, poder determinar quina de totes
 és la més ràpida. Per altra banda també volem veure si hi ha algun tipus de relació lineal entre el temps s'usuari
 i el de sistema. Les hipòtesis que plantegem en relació a aquests objectius són que realment les shells són igual
 de ràpides, ja que sinó tothom utilitzaria la mateixa shell, i que no hi ha relació entre el temps d'usuari i el de sistema.
 Com a objectiu secundari, pretenim millorar la nostra habilitat usant R i aprendre \LaTeX, amb el que està fet aquest informe.
 \subsection*{Mètodes}
 Per a la recollida de dades, per cadascuna de les 8 shells que s'estudien al treball, hem realitzat 8 execucions d'una partida
-de l'assignatura EDA de la FIB i 8 d'un programa en bash script que ordena un vector de 10000 elements. Ens hem assegurat que hi 
-hagi igualtat de condicions carregant el portàtil durant les execucions i borrant la memòria cache entre execucions. Les proves
+de l'assignatura EDA de la FIB i 8 d'un programa en bash script que ordena un vector de 10000 elements. El temps d'execució total,
+el de sistema i el d'usuari el mesurem amb la comanda de UNIX \emph{/usr/bin/time}.
+Ens hem assegurat que hi hagi igualtat de condicions carregant el portàtil durant les execucions i borrant la memòria cache entre execucions. Les proves
 es realitzen en un computar amb arquitectura AMD: Ryzen 5 3500U a 2.1GHz, 8GB de RAM i amb sistema operatiu Debian GNU/Linux 11 bullseye.
 
 \subsection*{Resultats i discussió}
@@ -79,7 +80,7 @@ Els resultats obtinguts indiquen que res s'oposa a assumir que les shells són i
 a pensar que les mitjanes de temps d'execució són iguals implica un p-value gran i superior al risc, igual que en el cas de l'estudi de la relació entre el temps
 d'usuari i el de sistema, on l'hipòtesi nul·la era que la pendent de la recta era 0, que no hi havia rel·lació. Per tant, és versemblant 
 pensar que les shells són igual de ràpides i que el temps de sistema no justifica per res la variabilitat del temps d'usuari, ja que no
-hi ha cab tipus de relació lineal.
+hi ha cap tipus de relació lineal.
 
 \newpage
 \section{Introducció}
@@ -251,7 +252,7 @@ Ara, ja demostrades les premisses del model, podem emprar la comanda lm de R per
   \label{fig:lm1}
 \end{figure} 
 
-A partida de la sortida de la comanda lm que es pot observar a la Figura \ref{fig:lm1}, es poden obtenir les estimacions
+A partir de la sortida de la comanda lm que es pot observar a la Figura \ref{fig:lm1}, es poden obtenir les estimacions
 de les 8 $\mu$ poblacionals, en segons:
 \begin{itemize}
   \item sh: 3.563125 - 0.001875 = 3.56125
@@ -265,7 +266,7 @@ de les 8 $\mu$ poblacionals, en segons:
 \end{itemize}
 \hfill \break
 Per altra banda, també podem obtenir els intervals de confiança, amb un nivell de confiança del 95\%, per cadascun dels paràmetres,
-mitjançant la sortida de la comanda en R confint, com es pot veure a la Figura \ref{fig:conf1}. Per altra banda, també es poden veure
+mitjançant la sortida de la comanda en R confint, com es pot veure a la Figura \ref{fig:conf1}. També es poden veure
 els intervals de confiança de forma gràfica mitjançant la comanda emmeans de R, com es pot veure a la Figura \ref{fig:conf1i}.
 \begin{figure}[h!]
   \centering
@@ -290,7 +291,7 @@ pràcticaments no hi ha diferències. Tot això es discutirà més endevant.
 Per poder veure si existeix algun tipus de relació entre el temps d'usuari i el de sistema, es pot usar el model estadístic
 lineal Y = $\beta_{0}$ + $\beta_{1}$X + $\epsilon$, on Y representaria el temps d'usuari i X el temps de sistema. Igual que a l'apartat
 anterior, per poder usar aquest model estadístic per analitzar les nostres dades, cal demostrar certes premisses. En aquest cas
-són 4: 
+són 5: 
 \begin{itemize}
   \item Mostra aleatòria
   \item Linealitat entre Y i X: Y i X s'han de poder ajustar a una recta
@@ -327,7 +328,7 @@ de vectors, per poder inferir quin tipus de relació hi ha entre ells:
 
 A la Figura \ref{fig:lm2} es pot veure clarament com l'R-squared, que es tracta del coeficient de determinació, pren un valor molt proper
 a 0, pel que X no determina per res la variació de Y. És a dir, el temps d'usuari no influeix en com varia el temps de sistema. Per aquest
-motiu, no té sentit parlar de la recta que relacions ambdues variables que ens dona la comanda lm de R.
+motiu, no té sentit parlar de la recta que relaciona ambdues variables que ens dona la comanda lm de R.
 
 \hfill \break
 \subsubsection{Partida EDA}
@@ -344,8 +345,8 @@ argumentat en apartats anteriors.
 
 Igual que abans, tot i que són poques dades, res s'oposa a validar cap de les 4 premisses.
 \hfill \break
-Ara, podem usar la comanda lm per poder veure com és la recta a la que s'ajusten el temps d'usuari i de sistema al programa d'ordenació
-de vectors, per poder inferir quin tipus de relació hi ha entre ells:
+Ara, podem usar la comanda lm per poder veure com és la recta a la que s'ajusten el temps d'usuari i de sistema a les
+partides d'EDA, per poder inferir quin tipus de relació hi ha entre ells:
 
 \begin{figure}[h!]
   \centering
@@ -394,7 +395,7 @@ era degut a que, com que la diferència entre els temps dels dos programes que u
 a les gràfiques. Una opció podria haver sigut analitzar els temps associat a cada subconjunt de programes, però vam preferir prescindir d'aquests dos i realitzar més execucions
 de la partida d'EDA i l'ordenació de vectors per donar més fiabilitat a l'estudi. De totes, formes, tant la recollida de dades qua vam fer inicialment com el programa de gestió
 de processos estaran disponibles a \nameref{ANNEX}.
-
+\break
 \subsection{Treballs futurs}
 Com a proposta de treball futur, es podria fer el que s'ha comentat abans, comparar les shells fent un únic programa amb molta variabilitat de còmput, i realitzar moltes
 execucions d'aquest a cada shell. També es podrien evaluar shells que no s'han contemplat en aquest treball i fins i tot analitzar el seu rendiment en funció de l'arquitectura
@@ -442,6 +443,7 @@ document per motius obvis.
       quicksort x $((pi+1)) $3
     fi 
   }
+  quicksort x 0 10002
   echo -n "Sorted array: "
   for i in "${x[@]}"
   do
