@@ -62,18 +62,24 @@
 
 \newpage
 \section*{RESUM}
-\subsection{Objectius}
+\subsection*{Objectius}
 El principal objectiu del treball es veure, donades 8 shells de UNIX concretes, poder determinar quina de totes
 és la més ràpida. Per altra banda també volem veure si hi ha algun tipus de relació lineal entre el temps s'usuari
 i el de sistema. Les hipòtesis que plantegem en relació a aquests objectius són que realment les shells són igual
 de ràpides, ja que sinó tothom utilitzaria la mateixa shell, i que no hi ha relació entre el temps d'usuari i el de sistema.
 Com a objectiu secundari, pretenim millorar la nostra habilitat usant R i aprendre \LaTeX, amb el que està fet aquest informe.
-\subsection{Mètodes}
-Per a la recollida de dades hem executat 
+\subsection*{Mètodes}
+Per a la recollida de dades, per cadascuna de les 8 shells que s'estudien al treball, hem realitzat 8 execucions d'una partida
+de l'assignatura EDA de la FIB i 8 d'un programa en bash script que ordena un vector de 10000 elements. Ens hem assegurat que hi 
+hagi igualtat de condicions carregant el portàtil durant les execucions i borrant la memòria cache entre execucions. Les proves
+es realitzen en un computar amb arquitectura AMD: Ryzen 5 3500U a 2.1GHz, 8GB de RAM i amb sistema operatiu Debian GNU/Linux 11 bullseye.
 
-
-\subsection{Resultats i discussió}
-
+\subsection*{Resultats i discussió}
+Els resultats obtinguts indiquen que res s'oposa a assumir que les shells són igual de ràpides, ja que l'hipòtesi nul·la corresponent
+a pensar que les mitjanes de temps d'execució són iguals implica un p-value gran i superior al risc, igual que en el cas de l'estudi de la relació entre el temps
+d'usuari i el de sistema, on l'hipòtesi nul·la era que la pendent de la recta era 0, que no hi havia rel·lació. Per tant, és versemblant 
+pensar que les shells són igual de ràpides i que el temps de sistema no justifica per res la variabilitat del temps d'usuari, ja que no
+hi ha cab tipus de relació lineal.
 
 \newpage
 \section{Introducció}
@@ -355,7 +361,7 @@ no té sentit analitzar la recta que ens proporciona la comanda d'R.
 \section{Discussió dels resultats}
 \subsection{Conclusió}
 Pel que fa a la mitjana del temps total que tarden les shells en realitzar totes les execucions, els resultats obtinguts ens mostren com hi ha una shell la mitjana 
-de la qual hem inferit és menor a les demés: Zshell. Tot i així, com que s'obtenen diferències entre shells amb uns p-values inferiors al risc (sota l'hipòtesi que la
+de la qual hem inferit és menor a les demés: Zshell. Tot i així, com que s'obtenen diferències entre shells amb uns p-values superiors al risc (sota l'hipòtesi que la
 diferència és 0), llavors les podem considerar igual de ràpides. No hi ha res que s'oposi a dir que són igual de ràpides, almenys amb les dades que hem recollit. De fet, en el 
 nostre cas, els temps entre programes són més diferents que entre shells. En conclusió, les dades mostren que no hi ha diferències entre les shells, més enllà que una d'elles
 tingui la mitjana mínima, però no significativament inferior a les altres. \break
@@ -472,10 +478,10 @@ el nombre de fibonacci amb índex 40:
 
   wait
 
-\end{lstlisting}
+\end{lstlisting} 
 
 \vspace{5mm} %5mm vertical space
 Finalment, a través d'aquest enllaç es pot accedir a un repositori de GitHub on es pot veure tot el codi del jugador PEplayer
-per les partides d'EDA, a més del ficher .xlsx amb totes les dades que hem usat, entre altres coses relacionades amb el projecte:
+per les partides d'EDA, a més del ficher .xlsx amb totes les dades que hem usat i les comandes de R emprades:
 \url{https://github.com/Isma1108/Shell_mes_rapida}
 \end{document}

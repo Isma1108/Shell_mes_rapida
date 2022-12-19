@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.15)  19 DEC 2022 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.15)  19 DEC 2022 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,89 +432,89 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 70.
  [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 132--139
+Underfull \hbox (badness 10000) in paragraph at lines 138--145
 
  []
 
 [4]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
-82.
+88.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 182.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 188.
  [5]
-<boxplot.jpg, id=105, 670.00313pt x 733.23938pt>
+<boxplot.jpg, id=96, 670.00313pt x 733.23938pt>
 File: boxplot.jpg Graphic file (type jpg)
 <use boxplot.jpg>
-Package pdftex.def Info: boxplot.jpg  used on input line 206.
+Package pdftex.def Info: boxplot.jpg  used on input line 212.
 (pdftex.def)             Requested size: 256.06578pt x 213.39478pt.
  [6 <./boxplot.jpg>]
-<ind1.png, id=113, 1416.79312pt x 735.49782pt>
+<ind1.png, id=104, 1416.79312pt x 735.49782pt>
 File: ind1.png Graphic file (type png)
 <use ind1.png>
-Package pdftex.def Info: ind1.png  used on input line 224.
+Package pdftex.def Info: ind1.png  used on input line 230.
 (pdftex.def)             Requested size: 332.68385pt x 172.6961pt.
-<norm1.png, id=114, 1418.29875pt x 742.27313pt>
+<norm1.png, id=105, 1418.29875pt x 742.27313pt>
 File: norm1.png Graphic file (type png)
 <use norm1.png>
-Package pdftex.def Info: norm1.png  used on input line 229.
+Package pdftex.def Info: norm1.png  used on input line 235.
 (pdftex.def)             Requested size: 332.68385pt x 174.10574pt.
  [7 <./ind1.png> <./norm1.png>]
-<lm1.png, id=124, 388.45125pt x 276.28218pt>
+<lm1.png, id=115, 388.45125pt x 276.28218pt>
 File: lm1.png Graphic file (type png)
 <use lm1.png>
-Package pdftex.def Info: lm1.png  used on input line 243.
+Package pdftex.def Info: lm1.png  used on input line 249.
 (pdftex.def)             Requested size: 426.79979pt x 227.61942pt.
-<conf1.png, id=128, 200.24812pt x 171.64125pt>
+<conf1.png, id=119, 200.24812pt x 171.64125pt>
 File: conf1.png Graphic file (type png)
 <use conf1.png>
-Package pdftex.def Info: conf1.png  used on input line 267.
+Package pdftex.def Info: conf1.png  used on input line 273.
 (pdftex.def)             Requested size: 199.60895pt x 171.1039pt.
-<conf1i.png, id=129, 496.85625pt x 500.62032pt>
+<conf1i.png, id=120, 496.85625pt x 500.62032pt>
 File: conf1i.png Graphic file (type png)
 <use conf1i.png>
-Package pdftex.def Info: conf1i.png  used on input line 272.
+Package pdftex.def Info: conf1i.png  used on input line 278.
 (pdftex.def)             Requested size: 199.60895pt x 201.12305pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8 <./lm1.png>] [9 <./conf1.png> <./conf1i.png>]
-<prem2.png, id=141, 670.00313pt x 733.23938pt>
+<prem2.png, id=132, 670.00313pt x 733.23938pt>
 File: prem2.png Graphic file (type png)
 <use prem2.png>
-Package pdftex.def Info: prem2.png  used on input line 306.
+Package pdftex.def Info: prem2.png  used on input line 312.
 (pdftex.def)             Requested size: 426.78653pt x 284.5301pt.
-<lm2.png, id=142, 417.05812pt x 184.43906pt>
+<lm2.png, id=133, 417.05812pt x 184.43906pt>
 File: lm2.png Graphic file (type png)
 <use lm2.png>
-Package pdftex.def Info: lm2.png  used on input line 317.
+Package pdftex.def Info: lm2.png  used on input line 323.
 (pdftex.def)             Requested size: 284.54398pt x 170.71602pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
 [10 <./prem2.png>]
-<prem3.png, id=151, 668.4975pt x 737.00343pt>
+<prem3.png, id=142, 668.4975pt x 737.00343pt>
 File: prem3.png Graphic file (type png)
 <use prem3.png>
-Package pdftex.def Info: prem3.png  used on input line 334.
+Package pdftex.def Info: prem3.png  used on input line 340.
 (pdftex.def)             Requested size: 426.80669pt x 284.51753pt.
  [11 <./lm2.png> <./prem3.png>]
-<lm3.png, id=158, 402.75468pt x 182.18062pt>
+<lm3.png, id=148, 402.75468pt x 182.18062pt>
 File: lm3.png Graphic file (type png)
 <use lm3.png>
-Package pdftex.def Info: lm3.png  used on input line 346.
+Package pdftex.def Info: lm3.png  used on input line 352.
 (pdftex.def)             Requested size: 284.52591pt x 170.72162pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--362
+Underfull \hbox (badness 10000) in paragraph at lines 363--368
 
  []
 
@@ -526,20 +526,20 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-409.
+415.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [15] [16]
 (./shell_mes_rapida.aux)
 Package rerunfilecheck Info: File `shell_mes_rapida.out' has not changed.
-(rerunfilecheck)             Checksum: 48C4E0DD1BC9208BBE887359E5157925;1027.
+(rerunfilecheck)             Checksum: 25947F43527E689BDB3F6DB2C4BEF5FA;861.
  ) 
 Here is how much of TeX's memory you used:
- 10325 strings out of 479304
- 157849 string characters out of 5869779
- 869131 words of memory out of 5000000
- 27252 multiletter control sequences out of 15000+600000
+ 10322 strings out of 479304
+ 157792 string characters out of 5869779
+ 869133 words of memory out of 5000000
+ 27249 multiletter control sequences out of 15000+600000
  410816 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,9n,77p,311b,1438s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -558,10 +558,10 @@ cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sftt1000.pfb>
-Output written on shell_mes_rapida.pdf (16 pages, 622171 bytes).
+Output written on shell_mes_rapida.pdf (16 pages, 623073 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
+ 319 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
  110 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
