@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.15)  19 DEC 2022 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.15)  19 DEC 2022 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,24 +318,24 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 (./shell_mes_rapida.aux)
 \openout1 = `shell_mes_rapida.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Info: Redefining \l on input line 59.
-LaTeX Info: Redefining \L on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Info: Redefining \l on input line 60.
+LaTeX Info: Redefining \L on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -398,7 +398,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count303
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 60.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -410,72 +410,72 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count304
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
 
 (./shell_mes_rapida.out) (./shell_mes_rapida.out)
 \@outlinefile=\write3
 \openout3 = `shell_mes_rapida.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 61.
+(Font)              <14.4> on input line 62.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 61.
+(Font)              <7> on input line 62.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 84.
+(Font)              <12> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 84.
+(Font)              <8> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 84.
+(Font)              <6> on input line 85.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 115--122
+Underfull \hbox (badness 10000) in paragraph at lines 116--123
 
  []
 
 [3]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
-65.
+66.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 165.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 166.
  [4]
 <boxplot.jpg, id=88, 670.00313pt x 733.23938pt>
 File: boxplot.jpg Graphic file (type jpg)
 <use boxplot.jpg>
-Package pdftex.def Info: boxplot.jpg  used on input line 189.
+Package pdftex.def Info: boxplot.jpg  used on input line 190.
 (pdftex.def)             Requested size: 256.06578pt x 213.39478pt.
  [5 <./boxplot.jpg>]
 <ind1.png, id=96, 1416.79312pt x 735.49782pt>
 File: ind1.png Graphic file (type png)
 <use ind1.png>
-Package pdftex.def Info: ind1.png  used on input line 207.
+Package pdftex.def Info: ind1.png  used on input line 208.
 (pdftex.def)             Requested size: 332.68385pt x 172.6961pt.
 <norm1.png, id=97, 1418.29875pt x 742.27313pt>
 File: norm1.png Graphic file (type png)
 <use norm1.png>
-Package pdftex.def Info: norm1.png  used on input line 212.
+Package pdftex.def Info: norm1.png  used on input line 213.
 (pdftex.def)             Requested size: 332.68385pt x 174.10574pt.
  [6 <./ind1.png> <./norm1.png>]
 <lm1.png, id=106, 388.45125pt x 276.28218pt>
 File: lm1.png Graphic file (type png)
 <use lm1.png>
-Package pdftex.def Info: lm1.png  used on input line 226.
+Package pdftex.def Info: lm1.png  used on input line 227.
 (pdftex.def)             Requested size: 426.79979pt x 227.61942pt.
 <conf1.png, id=110, 200.24812pt x 171.64125pt>
 File: conf1.png Graphic file (type png)
 <use conf1.png>
-Package pdftex.def Info: conf1.png  used on input line 250.
+Package pdftex.def Info: conf1.png  used on input line 251.
 (pdftex.def)             Requested size: 199.60895pt x 171.1039pt.
 <conf1i.png, id=111, 496.85625pt x 500.62032pt>
 File: conf1i.png Graphic file (type png)
 <use conf1i.png>
-Package pdftex.def Info: conf1i.png  used on input line 255.
+Package pdftex.def Info: conf1i.png  used on input line 256.
 (pdftex.def)             Requested size: 199.60895pt x 201.12305pt.
 
 
@@ -485,19 +485,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <prem2.png, id=124, 670.00313pt x 733.23938pt>
 File: prem2.png Graphic file (type png)
 <use prem2.png>
-Package pdftex.def Info: prem2.png  used on input line 289.
+Package pdftex.def Info: prem2.png  used on input line 290.
 (pdftex.def)             Requested size: 426.78653pt x 284.5301pt.
 <lm2.png, id=125, 417.05812pt x 184.43906pt>
 File: lm2.png Graphic file (type png)
 <use lm2.png>
-Package pdftex.def Info: lm2.png  used on input line 300.
+Package pdftex.def Info: lm2.png  used on input line 301.
 (pdftex.def)             Requested size: 284.54398pt x 170.71602pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
@@ -505,16 +505,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--310
 <prem3.png, id=134, 668.4975pt x 737.00343pt>
 File: prem3.png Graphic file (type png)
 <use prem3.png>
-Package pdftex.def Info: prem3.png  used on input line 317.
+Package pdftex.def Info: prem3.png  used on input line 318.
 (pdftex.def)             Requested size: 426.80669pt x 284.51753pt.
  [10 <./lm2.png> <./prem3.png>]
 <lm3.png, id=140, 402.75468pt x 182.18062pt>
 File: lm3.png Graphic file (type png)
 <use lm3.png>
-Package pdftex.def Info: lm3.png  used on input line 329.
+Package pdftex.def Info: lm3.png  used on input line 330.
 (pdftex.def)             Requested size: 284.52591pt x 170.72162pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--345
+Underfull \hbox (badness 10000) in paragraph at lines 341--346
 
  []
 
@@ -526,22 +526,19 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-392.
+393.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [14] [15]
 (./shell_mes_rapida.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `shell_mes_rapida.out' has not changed.
 (rerunfilecheck)             Checksum: 25947F43527E689BDB3F6DB2C4BEF5FA;861.
  ) 
 Here is how much of TeX's memory you used:
  10317 strings out of 479304
  157741 string characters out of 5869779
- 869104 words of memory out of 5000000
+ 869121 words of memory out of 5000000
  27249 multiletter control sequences out of 15000+600000
  410816 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
